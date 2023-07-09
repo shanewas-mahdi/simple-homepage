@@ -18,8 +18,10 @@
 }
 
 .logo {
+    margin-top: 5px;
     width: 150px;
     justify-content: left;
+    cursor: pointer;
 }
 
 .homeitems {
@@ -41,8 +43,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
+    height: 100vh;
     background-image: url(./images/background.png), linear-gradient(45deg, rgb(80, 3, 66), rgb(110, 62, 110));
+}
+.title{
+    font-size: 55px;
+    font-style: bold;
 }
 .description{
     font-size: 18px;
@@ -55,7 +61,15 @@
     border: none;
     color: white;
     border-radius: 3px;
-    cursor: pointer;
-    
-
-}
+    cursor: pointer; } 
+ .about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+ }
+ .about-title{
+    text-align: center;
+    padding:15px;
+    font-size: 50px;
+ }
