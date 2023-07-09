@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.menu-container{
+    background-color: rgb(32, 32, 32);
+    color:white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.menu{
+    display: flex;
+   margin-left: 10px;
+}
+
+.logo{
+    width:120px;
+    justify-content: left;
+}
+.homeitems{
+    margin-right: 10px;
+    padding:5px;
+    cursor: pointer;
+}
+.homeitems:hover{
+    color: blueviolet;
+}
